@@ -2,40 +2,40 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Game">
-      <UniqueIdentifier>{25613e82-3c0c-4fd7-9f5e-d46701677019}</UniqueIdentifier>
+      <UniqueIdentifier>{bbb3f541-07dd-4bc8-af1d-38eb2e20c3cf}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\AI">
-      <UniqueIdentifier>{e8d1b8cc-6b4e-47aa-935f-1ad43e7079b2}</UniqueIdentifier>
+      <UniqueIdentifier>{9e895472-0d57-4f38-b6e3-b5efb65274f4}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Anim">
-      <UniqueIdentifier>{4a079dda-7fc5-44ab-baaf-4a9e69e56f3c}</UniqueIdentifier>
+      <UniqueIdentifier>{e26848bf-99b9-4b29-9c87-31296473d408}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Client">
-      <UniqueIdentifier>{b8565bf3-04ff-49c6-b0cc-a982feb704c1}</UniqueIdentifier>
+      <UniqueIdentifier>{95d97ef3-006c-4348-8c55-9e6c69890ea6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\GameSys">
-      <UniqueIdentifier>{8b68a982-931e-41d1-b0b9-485007b644e5}</UniqueIdentifier>
+      <UniqueIdentifier>{5ea35bbc-6c7c-46dc-bd3f-e3727ede8049}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Physics">
-      <UniqueIdentifier>{cc2cd0a3-faba-4c7b-b2cc-34165b43db58}</UniqueIdentifier>
+      <UniqueIdentifier>{329ef3b7-1a21-48fa-a133-d9201b94006b}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Player">
-      <UniqueIdentifier>{bc4c2c72-79b6-43c8-b4dd-4ab967de2e5e}</UniqueIdentifier>
+      <UniqueIdentifier>{e16b7c44-360b-484f-bb72-3ae455eda10b}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Script">
-      <UniqueIdentifier>{9bfb8150-d477-4496-919c-29089c795f84}</UniqueIdentifier>
+      <UniqueIdentifier>{afa3d9e9-f629-4c68-97e3-7fda41f33c88}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Vehicle">
-      <UniqueIdentifier>{695df5c3-81f7-4a1b-8333-97886408adef}</UniqueIdentifier>
+      <UniqueIdentifier>{6ea14853-e64f-4ca5-b4cc-70245b4b24f2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Weapon">
-      <UniqueIdentifier>{5d40cc77-0e7f-475b-9880-fdaf9121d716}</UniqueIdentifier>
+      <UniqueIdentifier>{2ab32722-14e2-41d8-8446-bd0a097922e5}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\MP">
-      <UniqueIdentifier>{34c04d7b-8a84-433c-979d-d6be586f3ef6}</UniqueIdentifier>
+      <UniqueIdentifier>{01b599bd-4500-4b00-9386-5f09f32ab65c}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\MP\Stats">
-      <UniqueIdentifier>{6d4885aa-d404-4c14-aa01-3c478ed8677c}</UniqueIdentifier>
+      <UniqueIdentifier>{110fc8a6-1007-4f78-bb00-2db8a1fe0aa3}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

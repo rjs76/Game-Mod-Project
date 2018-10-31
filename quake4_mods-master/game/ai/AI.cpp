@@ -3691,10 +3691,16 @@ void idAI::OnDeath( void ){
 		spawnArgs.Set( "def_dropsItem1", "" );
 	}else{
 		// Fixme!  Better guys should drop better stuffs!  Make drops related to guy type?  Do something cooler here?
-		if( rVal < 50 ){	// Half of guys drop nothing?
+		if( rVal < 20 ){	// Half of guys drop nothing?
 			spawnArgs.Set( "def_dropsItem1", "weapon_lightninggun" );
-		}else if( rVal < 100 ){
+		}else if( rVal < 40 ){
 			spawnArgs.Set( "def_dropsItem1", "weapon_napalmgun" );
+		}
+		else if (rVal < 80){
+			spawnArgs.Set("def_dropsItem1", "weapon_hyperblaster");
+		}
+		else if (rVal < 100){
+			spawnArgs.Set("def_dropsItem1", "weapon_shotgun");
 		}
 	}
 
