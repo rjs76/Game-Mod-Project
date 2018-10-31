@@ -80,10 +80,10 @@ entityDef weapon_dmg
 	"spawnclass"				"idItem"
 	"weaponclass"				"rvWeaponDarkMatterGun"
 	"size"						"32 32 32"
-  	"model_view"				"weapon_dmg_view"
-  	"model_view_strogg"			"weapon_dmg_view_strogg"
-  	"model_world"				"weapon_dmg_world"
-	"model"						"models/weapons/darkmatter/w_dmg.lwo"
+  	"model_view"				"weapon_gauntlet_view"
+  	"model_view_strogg"			"weapon_gauntlet_view_strogg"
+ 	"model_world"				"weapon_gauntlet_world"
+	"model" 					"models/weapons/gauntlet/gauntlet.lwo"
 	"def_dropItem"				"weapon_dmg"
 	"mtr_crosshair"				"gfx/guis/crosshairs/crosshair_grenadelauncher"
 
@@ -170,6 +170,7 @@ entityDef weapon_dmg_mp
 	"def_projectile"			"projectile_dmg_mp"
 	"inv_icon"				"gfx/guis/hud/icons/item_darkmatter_colored"
 	"mtr_simple_icon"				"simpleicons/item_darkmatter_colored"
+	"simple_icon_scale"			"32.0"
 	"inv_start_ammo_dmg"			"3"
 	"triggerSize"				"32"
 	
@@ -185,6 +186,9 @@ entityDef weapon_dmg_mp
 
 	// played when you touch a weapon you can't acquire, i.e. weaponStay in MP
 	"snd_noAcquire"			"pickup_weaponstay"
+
+	"ammoRegenStep"             "1"
+	"ammoRegenTime"             "3600"
 }
 
 entityDef moveable_item_dmg 
@@ -247,9 +251,9 @@ model weapon_dmg_world
 
 entityDef damage_dmg_fly
 {
-	"damage"					"600"
+	"damage"					"30"
 	"radius"					"200"
-//	"knockback"					"1000"
+//	"knockback"					"100"
 	"push"						"-3000"
 	"gib"						"1"
 
@@ -413,11 +417,16 @@ entityDef projectile_dmg_mp
 	"fx_fly"					"effects/weapons/dmg/fly_mp.fx"
 	"fx_detonate"				"effects/weapons/dmg/impact_default_mp.fx"
 	"fx_impact"					"effects/weapons/dmg/impact_default_mp.fx"
-	"fx_impact_mp"					"effects/weapons/dmg/impact_default_mp.fx"
+	"fx_impact_mp"				"effects/weapons/dmg/impact_default_mp.fx"
 	"fx_impact_water"			"effects/ambient/splash_med.fx"
 
 	"snd_ricochet"				"grenade_bounce"	
 	"snd_fly"					"weapon_darkmatter_energy_loop"
 
 	"friendly_impact"			"1"
+
+	"fx_teleport_enter"			"effects/mp/item_teleport.fx"
+	"fx_teleport"				"effects/mp/item_teleport.fx"
+
+	"no_impact_prediction"		"1"
 }
