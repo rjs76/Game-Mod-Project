@@ -1,0 +1,17 @@
+/*
+Riviere Seguie
+
+Deliverables:
+
+Elemental weapons: Go to command line and type give all,then after using the scroll on mouse, scroll by the weapons and the weapons should be as followed:
+Shotgun(Wind),Napalmgun(fire), Hyberblaster(light), Lightning gun(lightning)
+
+Enemies drop weapons:
+You can either go through main story and the enemies will occassionly drop 1/4 weapons, or you can spawn them through command line Spawn monster_grunt
+and shoot a couple and they will ssapwn 1/4 weapons 
+
+Sidenote: the little blue box on the corner was for enemy wave count but was not successful in getting it put up on the hub.
+*/
+
+
+
